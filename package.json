@@ -1,0 +1,32 @@
+{
+  "name": "drawit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server -p 8088",
+    "dev": "webpack-dev-server --progress --colors --port 8090"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n3xtchen/drawit.git"
+  },
+  "author": "n3xtchen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n3xtchen/drawit/issues"
+  },
+  "homepage": "https://github.com/n3xtchen/drawit#readme",
+  "dependencies": {
+    "d3": "^3.5.16",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
